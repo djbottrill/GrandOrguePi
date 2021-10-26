@@ -1,3 +1,48 @@
+This script is deprected please follow these instructions to install
+==============
+
+Pre-compiled binaries are now available om the GrandOrgue Gitbub site, please follow these instructions to download and install:
+
+Installing GrandOrgue on Raspberry PI OS 64bit
+
+Download the latest 64 bit image from:
+
+ http://downloads.raspberrypi.org/raspios_arm64/images/
+
+Burn to SD card using Raspberry Pi Imager or Balena Etcher.
+
+Update the os :
+
+sudo apt update
+sudo apt upgrade
+
+Go to:
+
+https://github.com/GrandOrgue/grandorgue
+
+Click the “Latest” button on the right hand side
+
+Download the latest arm64.deb version e.g.
+
+wget https://github.com/GrandOrgue/grandorgue/releases/tag/3.4.0-1/grandorgue_3.4.0-1_arm64.deb
+
+Install GrandOrgue:
+
+sudo dpkg -i grandorgue_3.4.0-1_arm64.deb
+
+If this gives an error message then run:
+
+sudo apt --fix-broken install
+
+this will install the missing packages required by GrandOrgue
+
+GrandOrgue can now be run from the Sound and Video menu.
+
+==============
+
+
+
+
 Update for newer versions of Raspbian
 ==============
 
