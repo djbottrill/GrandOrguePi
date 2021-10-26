@@ -1,7 +1,7 @@
 This script is deprecated please follow these instructions to install
 ==============
 
-Pre-compiled binaries are now available om the GrandOrgue Gitbub site, please follow these instructions to download and install:
+Pre-compiled binaries are now available on the GrandOrgue Gitbub site, please follow these instructions to download and install:
 
 Installing GrandOrgue on Raspberry PI OS 64bit
 
