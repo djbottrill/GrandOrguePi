@@ -14,6 +14,7 @@ Burn to SD card using Raspberry Pi Imager or Balena Etcher.
 Update the os :
 
 sudo apt update
+
 sudo apt upgrade
 
 Go to:
